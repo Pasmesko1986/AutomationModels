@@ -1,0 +1,13 @@
+Automatizaciones Appium - VCS
+
+integration_tests
+   |___ctrf (reportes de ejecucion de los casos de prueba)
+   |
+   |___scr
+        |_API (Archivos de configuracion de las Automatizaciones Api)
+        |_mobile (Archivos de configuracion de las Automatizaciones mobile)
+   |___test
+        |_API (Carpeta que contiene los scripts de ejecucion de pruebas API)
+        |_Mobile (Carpeta que contiene los scripts de ejecucion de pruebas Mobile)
+   | 
+   |_package.json (archivo de configuracion de librerias y modulos)

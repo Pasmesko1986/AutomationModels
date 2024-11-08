@@ -1,0 +1,33 @@
+{
+  "results": {
+    "tool": {
+      "name": "mocha"
+    },
+    "summary": {
+      "tests": 2,
+      "passed": 0,
+      "failed": 2,
+      "pending": 0,
+      "skipped": 0,
+      "other": 0,
+      "start": 1715892949878,
+      "stop": 1715892969000
+    },
+    "tests": [
+      {
+        "name": "Healthcheck Android Appium connection ingresa a la pantalla remiteros",
+        "status": "failed",
+        "duration": 5459,
+        "message": "Error Can't call click on element with selector \"android=new UiSelector().text(\"Remitee - QA\")\" because element wasn't found",
+        "trace": "Error: Can't call click on element with selector \"android=new UiSelector().text(\"Remitee - QA\")\" because element wasn't found\n    at implicitWait (file:///D:/Users/PatricioASM/Desktop/VCS/AppiumJS/integration-tests/node_modules/webdriverio/build/utils/implicitWait.js:29:19)\n    at async Element.elementErrorHandlerCallbackFn (file:///D:/Users/PatricioASM/Desktop/VCS/AppiumJS/integration-tests/node_modules/webdriverio/build/middlewares.js:15:29)\n    at async Element.wrapCommandFn (file:///D:/Users/PatricioASM/Desktop/VCS/AppiumJS/integration-tests/node_modules/@wdio/utils/build/shim.js:90:29)"
+      },
+      {
+        "name": "Healthcheck Android Appium connection checks battery level on Settings App",
+        "status": "failed",
+        "duration": 5045,
+        "message": "Error Can't call click on element with selector \"android.widget.ImageButton\" because element wasn't found",
+        "trace": "Error: Can't call click on element with selector \"android.widget.ImageButton\" because element wasn't found\n    at implicitWait (file:///D:/Users/PatricioASM/Desktop/VCS/AppiumJS/integration-tests/node_modules/webdriverio/build/utils/implicitWait.js:29:19)\n    at async Element.elementErrorHandlerCallbackFn (file:///D:/Users/PatricioASM/Desktop/VCS/AppiumJS/integration-tests/node_modules/webdriverio/build/middlewares.js:15:29)\n    at async Element.wrapCommandFn (file:///D:/Users/PatricioASM/Desktop/VCS/AppiumJS/integration-tests/node_modules/@wdio/utils/build/shim.js:90:29)"
+      }
+    ]
+  }
+}

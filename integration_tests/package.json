@@ -1,0 +1,33 @@
+{
+  "name": "integration-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter mocha-ctrf-json-reporter -r ts-node/register 'tests/**/*.test.ts'",
+    "appium": "appium"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.3.16",
+    "@types/supertest": "^6.0.2",
+    "@wdio/cli": "^8.36.1",
+    "appium-webdriver": "^1.0.3",
+    "chai": "^4.4.1",
+    "mocha": "^10.0.6",
+    "mocha-ctrf-json-reporter": "^0.0.3",
+    "webdriver": "^8.36.1",
+    "webdriverio": "^8.36.1"
+  },
+  "dependencies": {
+    "@types/mocha": "^10.0.6",
+    "@types/node": "^20.12.8",
+    "axios": "^1.6.8",
+    "dotenv": "^16.4.5",
+    "mssql": "^10.0.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
